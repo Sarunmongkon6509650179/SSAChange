@@ -3,4 +3,19 @@
     <dimen name="prof_img_w">50dp</dimen>
     <dimen name="prof_img_h">50dp</dimen>
     <dimen name="max_post_img_h">500dp</dimen>
+    <dimen name="menu_head">60dp</dimen>
+    <dimen name="menu_bar">50dp</dimen>
+    <dimen name="menu_barImage">30dp</dimen>
+    <dimen name="userID">0dp</dimen>
+    <dimen name="userIDTxtSize">14sp</dimen>
+    <dimen name="menuGap">1dp</dimen>
+    <dimen name="pfp">50dp</dimen>
+    <dimen name="pfpImage">30dp</dimen>
+    <dimen name="pfpCrn">100dp</dimen>
+    <dimen name="feeds">0dp</dimen>
+    <dimen name="newPostBtn">60dp</dimen>
+    <dimen name="newPostGap">50dp</dimen>
+    <dimen name="newPostTxtSize">20sp</dimen>
+    <dimen name="postCrn">20dp</dimen>
+    <dimen name="postMrg">10dp</dimen>
 </resources>

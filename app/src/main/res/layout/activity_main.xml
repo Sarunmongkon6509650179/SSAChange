@@ -10,44 +10,44 @@
     >
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="60dp"
+        android:layout_height="@dimen/menu_head"
         android:background="@color/blue_green_1"
         android:orientation="horizontal"
         android:gravity="center_vertical|center_horizontal"
-        android:padding="1dp"
+        android:padding="@dimen/menuGap"
         >
         <LinearLayout
             android:id="@+id/menu_btn"
-            android:layout_width="50dp"
+            android:layout_width="@dimen/menu_bar"
             android:layout_height="match_parent"
             android:layout_gravity="center_vertical"
             android:gravity="center_vertical|center_horizontal"
             >
             <ImageView
-                android:layout_width="30dp"
-                android:layout_height="30dp"
+                android:layout_width="@dimen/menu_barImage"
+                android:layout_height="@dimen/menu_barImage"
                 android:src="@drawable/menu"
                 />
 
         </LinearLayout>
         <TextView
-            android:layout_width="0dp"
+            android:layout_width="@dimen/userID"
             android:layout_height="match_parent"
             android:text="MYUSER@DOMAIN.APP"
-            android:textSize="14sp"
+            android:textSize="@dimen/userIDTxtSize"
             android:textColor="@color/white"
             android:layout_weight="1"
             android:gravity="center_vertical|center_horizontal"
             />
         <LinearLayout
-            android:layout_width="50dp"
+            android:layout_width="@dimen/pfp"
             android:layout_height="match_parent"
             android:layout_gravity="center_vertical"
             android:gravity="center_vertical|center_horizontal"
             >
             <ImageView
-                android:layout_width="30dp"
-                android:layout_height="30dp"
+                android:layout_width="@dimen/pfpImage"
+                android:layout_height="@dimen/pfpImage"
                 android:src="@drawable/user_icon"
                 />
         </LinearLayout>
@@ -58,7 +58,7 @@
     <RelativeLayout
         android:id="@+id/main_layout"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
+        android:layout_height="@dimen/feeds"
         android:layout_weight="1"
         >
         <include layout="@layout/post_view"/>
@@ -66,11 +66,11 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="60dp"
+        android:layout_height="@dimen/newPostBtn"
         android:background="@color/blue_green_1"
         android:orientation="horizontal"
         android:gravity="center"
-        android:padding="1dp"
+        android:padding="@dimen/menuGap"
 
         >
         <LinearLayout
@@ -80,8 +80,8 @@
             android:background="@color/blue_green_1"
             android:orientation="horizontal"
             android:gravity="center"
-            android:paddingLeft="50dp"
-            android:paddingRight="50dp"
+            android:paddingLeft="@dimen/newPostGap"
+            android:paddingRight="@dimen/newPostGap"
             >
         <ImageView
             android:layout_width="wrap_content"
@@ -93,7 +93,7 @@
             android:layout_height="wrap_content"
             android:text="New Post"
             android:textColor="@color/white"
-            android:textSize="20dp"
+            android:textSize="@dimen/newPostTxtSize"
             />
 
         </LinearLayout>
